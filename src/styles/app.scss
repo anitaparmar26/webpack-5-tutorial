@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../fonts/roboto/Roboto-Black.ttf),format(ttf);
+}
+
+
+$light-color: moccasin;
+$dark: black;
+
+
+body{
+    background-color: $light-color;
+    font-family: 'Roboto', sans-serif;
+
+    h1{
+        color: $dark;
+    }
+}
